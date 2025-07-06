@@ -2,37 +2,6 @@
 
 This project demonstrates how to fine-tune and deploy **Gemma 3N (4B)** for **multimodal conversational tasks** using the [Unsloth](https://github.com/unslothai/unsloth) fast fine-tuning framework. It supports **vision, audio, and text** inputs through a unified architecture.
 
-
-
-```
-# === Folder Structure for Gemma3N_(4B)-Conversational ===
-
-# ├── configs/
-# │   └── sft_config.py
-# ├── data/
-# │   └── preprocess.py
-# ├── model/
-# │   ├── load_model.py
-# │   └── save_model.py
-# ├── train_module/
-# │   └── train.py
-# ├── inference/
-# │   ├── inference.py
-# │   └── multimodal_demo.py
-# ├── export/
-# │   └── export_model.py
-# ├── utils/
-# │   ├── memory_utils.py
-# │   └── tokenizer_setup.py
-# ├── requirements.txt
-# ├── .gitignore
-# ├── main.py
-# └── README.md
-
-# === README.md ===
-```
-
-
 ---
 
 ## 📁 Project Structure
@@ -173,3 +142,10 @@ __pycache__/
 Training complete. You can now push this to GitHub or continue with evaluation and deployment!
 
 > 📘 **Credits:** Installation cells and environment setup snippets were directly adapted from Unsloth's [official documentation](https://github.com/unslothai/unsloth#gemma-3n).
+
+## 👨‍💼 Author
+
+**Elias Hossain**  
+_Machine Learning Researcher | PhD in Progress | AI x Reasoning Enthusiast_
+
+[![GitHub](https://img.shields.io/badge/GitHub-EliasHossain001-blue?logo=github)](https://github.com/EliasHossain001)
