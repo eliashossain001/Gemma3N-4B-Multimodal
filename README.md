@@ -23,9 +23,9 @@ This project demonstrates how to fine-tune and deploy **Gemma 3N (4B)** for **mu
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
-### ✅ Installation
+### Installation
 Paste the following inside a Jupyter Notebook or terminal:
 
 ```python
