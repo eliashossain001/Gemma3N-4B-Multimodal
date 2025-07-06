@@ -1,0 +1,66 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+.env.*
+*.env
+*.secret
+
+# Unsloth compiled cache and internal folders
+unsloth_compiled_cache/
+**/unsloth_compiled_cache/
+**/unsloth_zoo/
+
+# Model outputs and checkpoints
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.gguf
+*.ggml
+**/checkpoints/
+**/outputs/
+**/results/
+**/runs/
+**/saved_models/
+**/finetune_logs/
+
+# Dataset cache
+cache/
+**/.cache/
+**/cache_dir/
+**/hf_cache/
+
+# Data
+*.csv
+*.tsv
+*.jsonl
+*.json
+*.parquet
+*.zip
+*.tar.gz
+*.tar
+
+# Logs
+*.log
+*.out
+*.err
+*.tmp
+
+# System-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
